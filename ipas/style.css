@@ -1,0 +1,222 @@
+.nav{
+  position:fixed;
+  top:15px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:999;
+  background:#7F8C6A;
+  border-radius: 999px;
+  box-shadow:0 6px 20px #DED6C1;
+  padding:5px 20px;
+  display:flex;
+  align-items:center;
+  gap:28px;
+  backdrop-filter:blur(6px);
+}
+
+.nav-links{
+    display:flex;
+    gap:24px;
+  }
+    
+.nav a{
+    color:#f7f3f3;
+    text-decoration:none;
+    font-weight:600;
+    padding:6px 8px;
+    border-radius:8px;
+    transition:.2s;
+    font-size:15px;
+  }
+    
+.nav a:hover{
+  background: #F5F0E6;
+  color:#000000;
+  transform:translateY(-2px)
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px 20px;
+  overflow-x: hidden;
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.7;
+  color: #2E3440;
+  background: #F1F8E9;
+}
+
+
+body > h1 {
+  float: left;
+  width: 55%;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: left;
+  margin: 20px 0 10px 0;
+  color: #1B5E20;
+  font-weight: 700;
+}
+
+body > div:has(img) {
+  float: right;
+  width: 40%;
+  text-align: right;
+  margin: 10px 0;
+}
+
+body > div img {
+  width: 100% !important;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+  border: 4px solid white;
+}
+
+body > br {
+  clear: both;
+  display: block;
+  margin-bottom: 15px;
+}
+
+body > h3:not(:first-of-type) {
+  clear: both;
+  background: #E8F5E9;
+  color: #75b3b0;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border-left: 6px solid #70c0ad;
+  font-size: 18px;
+  margin: 22px 0 10px 0;
+}
+
+
+body > ol {
+  background: white;
+  padding: 16px 18px 16px 40px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
+
+body > ol li {
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+
+body > ol li::marker {
+  color: #000000;
+  font-weight: bold;
+}
+
+body > b {
+  display: inline-block;
+  margin: 8px 0 4px 0;
+  color: #1B5E20;
+  background: #F1F8E9;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
+
+
+.kembali, a[href*="index.html"] {
+  color: white;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.Kontak, a[href="../footr.html"] {
+  color: white;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background-color: #f8fafc;
+}
+
+.footer {
+  clear: both;
+  background: #254560;
+  color: #fafafa;
+  padding: 30px 18px 12px 18px;
+  margin-top: 40px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+}
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer b{
+  color: rgb(24, 19, 19);
+}
+
+.footer-brand { flex: 1; min-width: 240px; }
+.footer-brand h3 { font-size: 22px; margin: 0 0 8px 0; }
+.footer-brand p { font-size: 14px; line-height: 1.6; color: #f1f4ef; }
+.footer-tag {
+  display: inline-block;
+  background: #2e597d; color: white;
+  padding: 6px 12px; border-radius: 50px;
+  font-size: 12px; margin-top: 10px;
+}
+.footer-members { flex: 1.3; min-width: 280px; display: flex; flex-direction: column; gap: 10px; }
+.member-card {
+  background: white;
+  border-radius: 16px;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.member-card b { font-size: 14px; }
+.icons { display: flex; gap: 8px; }
+.icons a {
+  width: 38px; height: 38px;
+  background: #F1F8E9; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+.icons img { width: 20px; height: 20px; }
+.copy { text-align: center; font-size: 12px; color: #689F38; margin-top: 18px; }
